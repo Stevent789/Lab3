@@ -1,0 +1,61 @@
+a.disappear{
+  visibility: hidden;
+}
+
+body.bang {
+
+}
+div.cool {
+  text-align: center;
+  font-size: 20px;
+}
+
+header.ground {
+  text-align: center;
+  color: teal;
+}
+
+nav.lead {
+  background-color: teal;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px 3px;
+  text-align: center;
+}
+
+p.intro {
+  border: 2px solid teal;
+  background-color: teal;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+img.smile {
+  text-align:center;
+  display: block;
+  margin: auto;
+}
+
+div.random {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+img.innerrandom {
+  display: inline-block;
+  width: 100px;
+
+}
+
+.projects {
+  display: inline-block;
+  color: blue;
+}
+
+  @media only screen and (max-width: 500px) {
+      body {
+          background="images/blue-gradient";
+      }
+  }
