@@ -54,8 +54,20 @@ img.innerrandom {
   color: blue;
 }
 
-  @media only screen and (max-width: 500px) {
-      body {
-          background="images/blue-gradient";
+  @media (max-width: 500px) {
+      p {
+          color: lightblue;
       }
+  }
+
+  @media (max-width: 500px) {
+      h1 {
+        color: green;
+      }
+  }
+
+  @media (max-width: 500px) {
+    body {
+      background-color: tan;
+    }
   }
